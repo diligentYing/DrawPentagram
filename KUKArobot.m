@@ -82,7 +82,7 @@ Ts = cat(3, Ts1(:,:,1:100),Ts2(:,:,1:100),Ts3(:,:,1:100),Ts4(:,:,1:100),Ts5(:,:,
 %通过逆运动学求解，我们可以得到相应的关节空间轨迹：
 qc = robot.ikcon(Ts);
 figure(2)
-% robot.plot(qc,'trail','k','tilesize',20)
+robot.plot(qc,'trail','k','tilesize',20)
 timelist = [0:0.01:5]';
 out = [timelist qc];
 % 导出矩阵数据到文本文件
