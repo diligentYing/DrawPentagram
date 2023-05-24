@@ -1,5 +1,5 @@
 # DrawPentagram
-matlab+Adams，实现在matlab和Adams里机器人末端画出五角星。
+matlab+Adams，实现在matlab和Adams控制机器人的末端画出五角星。
 # requirement
 matlab中添加机器人工具箱
 # Run
